@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Infos
+[
+<!ELEMENT Infos (#PCDATA|Info)*>
+<!ELEMENT Info (#PCDATA|group|time|cost)*>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+]>
+<Infos>
+    <Info>
+        <group>5-10 Человек</group>
+        <time>45-60</time>
+        <cost>55 BYN</cost>
+    </Info>
+    <Info>
+        <group>2-5 Человек</group>
+        <time>50-70</time>
+        <cost>60 BYN</cost>
+    </Info>
+        <Info>
+        <group>1 Человек</group>
+        <time>40-60</time>
+        <cost>70 BYN</cost>
+    </Info>
+        <Info>
+        <group>3-4 Человек</group>
+        <time>30-50</time>
+        <cost>45 BYN</cost>
+    </Info>
+        <Info>
+        <group>6-8 Человек</group>
+        <time>40-70</time>
+        <cost>50 BYN</cost>
+    </Info>
+</Infos>

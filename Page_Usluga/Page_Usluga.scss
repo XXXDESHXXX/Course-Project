@@ -1,0 +1,191 @@
+//Styles
+body {
+    background-color: wheat;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+//Header 
+.Navigation_menu {
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+#Ssilka {
+    float: right;
+    color:yellow;
+    text-decoration: none;
+    margin: 20px 20px 10px 20px;
+    font-size: 30px;
+}
+#Ssilka:hover {
+    text-decoration: underline;
+}
+.Logotype {
+    float: left;
+    height: 70px;
+    width: 70px;
+    background-image: url(Logotype.svg);
+    background-repeat: no-repeat;
+}
+ul {
+    margin: 0;
+}
+ul.navigation_cepochka {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul.navigation_cepochka li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.navigation_cepochka li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+}
+ul.navigation_cepochka li {
+    color:grey;
+}
+ul.navigation_cepochka li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.navigation_cepochka li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+//Main
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-basis: 500px;
+    margin: 0px 160px 0px 40px;
+}
+.Info {
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    height: 450px;
+    margin-bottom: 25px;
+}
+.Info #group {
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.Info #time {
+    font-size: 28px;
+    margin-top: 20px;
+    float:right;
+}
+
+.Info #cost {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 30%;
+    text-align: center;
+}
+#Knopka {
+    font-size: 34px;
+    text-align: center;
+    border:none;
+    border-radius: 20px;
+    height:120px;
+    background-color: yellow;
+}
+#Image {
+    margin: 0px 50px 30px 50px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+}
+#Image img {
+    width: 1400px;
+    height: 700px;
+}
+//Footer
+footer {
+    height: 80px;
+    width: 100%;
+    margin: 70px 0 0 0;
+    background-color: black;
+}
+footer span {
+    color: yellow;
+    font-size: 30px;
+}
+.Logotype2 {
+    float: left;
+    height: 70px;
+    width: 70px;
+    background-image: url(Logotype.svg);
+    background-repeat: no-repeat;
+}
+@media (max-width:800px) {
+    footer span {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    .Info {
+        font-size: 18px;
+    }
+    .Info {
+        font-size: 18px;
+    }
+    #Ssilka {
+        font-size: 20px;
+    }
+    #Image img {
+        width: 500px;
+    }
+}
+@media (max-width:500px) {
+    #Image img {
+        width: 400px;
+        height: 500px;
+    }
+}
+@media (min-width:900px) {
+    #Image img {
+        width: 500px;
+        height: 600px;
+    }
+    .Flex-container1 {
+        flex-basis: 200px;
+    }
+    .Info #Left {
+        font-size: 14px;
+    }
+    .Info #Right {
+        font-size: 14px;
+    }
+}
+@media (min-width:1240px) {
+    #Image img {
+        width:100%;
+        height: 100%;
+    }
+    .Flex-container1 {
+        flex-basis: 450px;
+    }
+    .Info #Left {
+        font-size: 24px;
+    }
+    .Info #Right {
+        font-size: 24px;
+    }
+}
