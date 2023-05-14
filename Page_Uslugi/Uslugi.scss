@@ -1,9 +1,12 @@
 //Styles
-body {
+@mixin body-style {
     background-color: wheat;
     padding: 0;
     margin: 0;
     font-family: Verdana;
+}
+body {
+    @include body-style;
 }
 #Text {
     top:82%;
