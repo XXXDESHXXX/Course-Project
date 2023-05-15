@@ -68,6 +68,12 @@ ul.navigation_cepochka li a:hover {
   text-decoration: underline;
 }
 
+main p {
+  margin-left: 70px;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
 .Container {
   display: flex;
   flex-wrap: wrap;
@@ -171,9 +177,25 @@ footer span {
   }
 }
 @media (max-width: 500px) {
+  .Info #group {
+    font-size: 20px;
+  }
+  .Info #time {
+    font-size: 20px;
+  }
+  main p {
+    margin-left: 50px;
+    font-size: 40px;
+  }
   #Image img {
-    width: 400px;
+    width: 370px;
     height: 500px;
+  }
+  #Ssilka {
+    font-size: 18px;
+  }
+  footer {
+    height: 100px;
   }
 }
 @media (min-width: 900px) {

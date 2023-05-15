@@ -98,8 +98,8 @@ ul.navigation_cepochka li a:hover {
 
 @media (max-width: 800px) {
   #Image {
-    width: 485px;
-    height: 847px;
+    width: 429px;
+    height: 889px;
   }
   #Info {
     font-size: 35px;
@@ -113,6 +113,6 @@ ul.navigation_cepochka li a:hover {
 @media (min-width: 1280px) {
   #Image {
     height: 847px;
-    width: 1901px;
+    width: 1458px;
   }
 }
